@@ -27,7 +27,7 @@ const App = () => {
           {
             items.map((item, i) => <tr>
               <td>{item.name}</td>
-               <td style={{ color: item.price < budget ? 'green' : 'red' }} >{item.price}</td></tr>)
+               <td style={{ color: item.price <= budget ? 'green' : 'red' }} >{item.price}</td></tr>)
           }
         </tbody>
       </table>
