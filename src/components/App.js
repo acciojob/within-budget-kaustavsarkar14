@@ -9,6 +9,9 @@ const App = () => {
     { name: "Banana", price: 10 },
     { name: "Neutella", price: 30 },
     { name: "Razor", price: 5 },
+    { name: "CornFlakes", price: 15 },
+    { name: "Sound Bar", price: 50 },
+    { name: "Iphone", price: 80 },
   ]
   return (
     <div>
