@@ -18,9 +18,11 @@ const App = () => {
       {/* Do not remove the main div */}
       <h3>Enter your budget to check available items:</h3>
       <input type="number" value={budget} onChange={e => setBudget(e.target.value)} />
-      <h3>Items you can buy are in Green color</h3>
+      
       <table>
-        <thead></thead>
+        <thead>
+          <th>Items you can buy are in Green color</th>
+        </thead>
         <tbody>
           {
             items.map((item, i) => <tr>
